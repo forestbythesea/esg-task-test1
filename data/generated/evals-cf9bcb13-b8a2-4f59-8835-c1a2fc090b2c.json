@@ -1,0 +1,164 @@
+[
+  {
+    "question": "What is the company\u2019s purpose and main activities?",
+    "passed": true,
+    "checks": {
+      "no_answer_claim": true,
+      "has_missing_info": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s primary focus?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to risk management?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to energy management?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to data security?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "summary_has_grounded_source",
+    "passed": true,
+    "checks": {
+      "has_sources": true
+    }
+  },
+  {
+    "question": "risk_scores_have_grounded_sources",
+    "passed": true,
+    "checks": {
+      "score_count": 6
+    }
+  },
+  {
+    "question": "What is the company\u2019s purpose and main activities?",
+    "passed": true,
+    "checks": {
+      "no_answer_claim": true,
+      "has_missing_info": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s primary focus?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to risk management?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to energy management?",
+    "passed": true,
+    "checks": {
+      "no_answer_claim": true,
+      "has_missing_info": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to data security?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "summary_has_grounded_source",
+    "passed": true,
+    "checks": {
+      "has_sources": true
+    }
+  },
+  {
+    "question": "risk_scores_have_grounded_sources",
+    "passed": true,
+    "checks": {
+      "score_count": 6
+    }
+  },
+  {
+    "question": "What is the company\u2019s purpose and main activities?",
+    "passed": true,
+    "checks": {
+      "no_answer_claim": true,
+      "has_missing_info": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s primary focus?",
+    "passed": true,
+    "checks": {
+      "no_answer_claim": true,
+      "has_missing_info": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to risk management?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to energy management?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "What is the company\u2019s commitment to data security?",
+    "passed": true,
+    "checks": {
+      "has_sources": true,
+      "quotes_grounded": true
+    }
+  },
+  {
+    "question": "summary_has_grounded_source",
+    "passed": true,
+    "checks": {
+      "has_sources": true
+    }
+  },
+  {
+    "question": "risk_scores_have_grounded_sources",
+    "passed": true,
+    "checks": {
+      "score_count": 6
+    }
+  }
+]

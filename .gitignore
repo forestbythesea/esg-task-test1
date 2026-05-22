@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+node_modules/
+.local-tools/
+dist/
+*.tsbuildinfo
+coverage/
+*.pyc
+data/app.db
+data/reports/*.pdf
+data/index/*
+data/generated/traces*.jsonl
+frontend/.vite/

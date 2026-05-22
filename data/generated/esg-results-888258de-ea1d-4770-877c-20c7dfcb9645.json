@@ -1,0 +1,694 @@
+{
+  "generated_at": "2026-05-22T04:13:41.914947+00:00",
+  "model": {
+    "provider": "openai",
+    "name": "gpt-5.4-mini"
+  },
+  "companies": [
+    {
+      "company_name": "Tallink Grupp",
+      "document": {
+        "company_id": "tallink-grupp",
+        "file_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+        "report_year": "2024",
+        "source_url": "https://image.tallink.com/image/upload/grupp/documents/sustainability-reports/Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+        "prompt_injection_findings": []
+      },
+      "summary": {
+        "answer": "Tallink Grupp report summary: 19 | 77 Consolidated Sustainability Statement 2024 ESG Strategy The Group’s strategy , description of its services, markets and segments, as well as the number of employees, can be found in the Annual Report on pages 5-8 and 13.",
+        "sources": [
+          {
+            "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+            "page": 19,
+            "quote": "19 | 77 Consolidated Sustainability Statement 2024 ESG Strategy The Group’s strategy , description of its services, markets and segments, as well as the number of employees, can be found in the Annual Report on pages 5-8 and 13. This section focuses specifically on how…"
+          },
+          {
+            "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+            "page": 6,
+            "quote": "6 | 77 Consolidated Sustainability Statement 2024 Incorporation by Reference The following table outlines the locations of ESRS disclosures that have been incorporated by reference and presented outside the sustainability statement, appearing in other sections of the Annual…"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "question": "What is the company’s purpose and main activities?",
+          "status": "answered",
+          "answer": "The report describes the company through its operating activities and strategic role: 38 | 77 Consolidated Sustainability Statement 2024 Environment EU Taxonomy Reporting In accordance with Article 8 (1) of the Taxonomy Regulation (EU) 2020/852, the Group is required to report how and to what extent its economic activities are aligned with environmentally sustainable economic activities as defined in the taxonomy. At present, three of the Group's economic activities are subject to the Taxonomy Regulation: → transportation of freight by sea and coastal waters (CCM & CCA 6.10), → transportation of passengers by sea and coastal waters (CCM & CCA 6.11), and → hotels, holiday, camping grounds and similar accommodation (BIO 2.1). The Group’s other activities, which include onboard restaurant and sales services, onshore restaurant services, online shop , and onshore business are classified as taxonomy non -eligible activities.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 38,
+              "quote": "38 | 77 Consolidated Sustainability Statement 2024 Environment EU Taxonomy Reporting In accordance with Article 8 (1) of the Taxonomy Regulation (EU) 2020/852, the Group is required to report how and to what extent its economic activities are aligned with environmentally…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 39,
+              "quote": "Y Y 10% T Turnover of Taxonomy-aligned activities (A.1) 122.8 16% 16% 0.0 0% 0% 0% 0% N/A Y Y Y Y Y Y 17% Of which enabling - - - - - - - - - Of which transitional 122.8 100% 100% N/A Y Y Y Y Y Y 100% T A.2 Taxonomy-Eligible but not aligned activities Activity 1 : Sea and…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s primary focus?",
+          "status": "answered",
+          "answer": "The report evidence points to a focused set of commitments: PRIMARY ACTIVITY Services Onshore Accommodation & Restaurants: Providing hospitality services at onshore hotels and restaurants, with a focus on sustainability (e.g., sourcing local food, reducing waste, improving energy efficiency). While the primary responsibility for MARPOL compliance lies with each vessel, the ship’s technical manager or International Safety Management (ISM) Group provides procedures and operational routines that vessels must implement under the ISM Code. The ISM Code establishes an international standard for the safe management and operation of ships, with a particular focus on pollution prevention.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 20,
+              "quote": "communication, including software for logistics and data management. SUPPORT ACTIVITY Governance & Compliance Ensuring compliance with the EU regulations, including the Corporate Sustainability Reporting Directive (CSRD), and meeting the European Sustainability Reporting…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 21,
+              "quote": "21 | 77 Consolidated Sustainability Statement 2024 PRIMARY ACTIVITY Outbound Logistics Logistics & Distribution (Cargo): Delivering cargo to ports and managing logistics for efficient loading/unloading. Collaboration with green logistics partners and using electrified vehicles…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to risk management?",
+          "status": "answered",
+          "answer": "The report frames risk management as a governed control process: Any future ESG reporting risks will b e identified through regular meetings with key stakeholders and discussed in Management Board meetings on a weekly basis to ensure proactive risk management and compliance. other risks but are considered on the same basis as part of the Group’s overall risk management framework. Risk Management and Sustainability Reporting The Group’s Management Board incorporates identified IROs into the development and implementation of the Group’s strategy, decision -making processes, and overall risk management.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 24,
+              "quote": "other risks but are considered on the same basis as part of the Group’s overall risk management framework. Issues relating to IROs have been raised with the Group’s cross-function leadership team and Management Board during the 2024 in regular meetings that take place either…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 24,
+              "quote": "24 | 77 Consolidated Sustainability Statement 2024 The Group works with external experts and consultants where additional knowledge or expertise in certain areas is needed. In 2024, external support was utilised during the double materiality assessment process, the ESG data GAP…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to energy management?",
+          "status": "answered",
+          "answer": "The report links energy management to operational efficiency and transition actions: Alongside its overall safety management efforts, the Group remains committed to ensuring that customer data is handled securely and in strict compliance with all current and future regulations and laws. All incidents are thoroughly recorded and analysed by Ship Management to identify possible mitigation measures and areas for im provement. Any future ESG reporting risks will b e identified through regular meetings with key stakeholders and discussed in Management Board meetings on a weekly basis to ensure proactive risk management and compliance.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 69,
+              "quote": "management of customer data has been and will continue to be a top priority for the Group. Alongside its overall safety management efforts, the Group remains committed to ensuring that customer data is handled securely and in strict compliance with all current and future…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 23,
+              "quote": "year and approved by the Management Board. The internal audit drafts an audit report and presents it to the Management Board. There are regular follow -up audits to check if the risks presented in the audit have been mitigated. The identification of the Group’s impacts, risks…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to data security?",
+          "status": "answered",
+          "answer": "The report treats data and security as a control area: The Group’s goal, as set by the Management Board, is to prevent any safety and security incidents that could lead to extensive losses, including those affecting human lives, financial stability, reputation, or data security. This objective is achieved through preventive actions and effective safety and security procedures, including data protection measures and advanced IT solutions to mitigate risks. In 2024, the Group invested EUR 0.4 million in IT security and data protection enhancements to further strengthen compliance and safeguard sensitive information.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 35,
+              "quote": "breaches, ensure compliance with data protection regulations, and maintain customer trust. Effective data protection practices mitigate risks associated with potential financial liabi lities, such as fines under General Data Protection Regulation ( GDPR), and safeguard against…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 70,
+              "quote": "handled responsibly and securely. The key activities in data protection include GDPR compliance and data incident monitoring, with incident analysis and procedural improvements implemented as necessary. The Group continuously upgrades IT systems to ensure compliance with data…"
+            }
+          ],
+          "missing_information": null
+        }
+      ],
+      "risk_scores": [
+        {
+          "dimension": "Environmental",
+          "score": 76,
+          "confidence": "medium",
+          "rationale": "Environmental score reflects 4 topic signals, 4 commitment/control signals, and evidence across 4 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 19,
+              "quote": "broad customer base is closely tied to fostering sustainable business relationships within the supply chain and implementing environmental practices that promote greener and more s ustainable service delivery. Additionally, the Group emphasises the importance of ensuring good…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 22,
+              "quote": "of GHG emissions reductions are based on the expectation and assumption that a sustainable alternative shipping fuel will be developed and available to shipping companies within the next 5-10 years. → Medium- to long-term achievement of GHG emissions reductions additionally…"
+            }
+          ]
+        },
+        {
+          "dimension": "Social",
+          "score": 75,
+          "confidence": "medium",
+          "rationale": "Social score reflects 2 topic signals, 7 commitment/control signals, and evidence across 4 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 3,
+              "quote": "3 | 77 AS Tallink Grupp Consolidated Sustainability Statement 2024 CONTENTS Basis for Preparation ..................................................................................................................... 4 Incorporation by Reference…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 75,
+              "quote": "their Scope 3 emissions. Social Factors → 48% of companies have policies and practices in place to address the impact of their activities on affected communities. → 96% of companies have policies and practices in place to ensure fair labour practices, including safe working…"
+            }
+          ]
+        },
+        {
+          "dimension": "Governance",
+          "score": 77,
+          "confidence": "medium",
+          "rationale": "Governance score reflects 3 topic signals, 5 commitment/control signals, and evidence across 5 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 12,
+              "quote": "material impacts, risks, and opportunities Double Materiality Assessment Overview of Material Impacts, Risks, and Opportunities 25-28 32-36 G1-1 Business conduct policies and corporate culture Governance 72-77 G1-2 Management of relationships with suppliers Governance 72-77…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 72,
+              "quote": "72 | 77 Consolidated Sustainability Statement 2024 the Group fosters a culture of trust and responsiveness, strengthening its relationship with consumers and enhancing their overall experience. The Group has a whistleblowing policy in place that enables external stakeholders to…"
+            }
+          ]
+        },
+        {
+          "dimension": "Security/Data",
+          "score": 89,
+          "confidence": "high",
+          "rationale": "Security/Data score reflects 5 topic signals, 7 commitment/control signals, and evidence across 3 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 70,
+              "quote": "handled responsibly and securely. The key activities in data protection include GDPR compliance and data incident monitoring, with incident analysis and procedural improvements implemented as necessary. The Group continuously upgrades IT systems to ensure compliance with data…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 69,
+              "quote": "management of customer data has been and will continue to be a top priority for the Group. Alongside its overall safety management efforts, the Group remains committed to ensuring that customer data is handled securely and in strict compliance with all current and future…"
+            }
+          ]
+        },
+        {
+          "dimension": "Energy",
+          "score": 70,
+          "confidence": "medium",
+          "rationale": "Energy score reflects 4 topic signals, 2 commitment/control signals, and evidence across 4 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 32,
+              "quote": "topical 1 The FuelEU Maritime Regulation (Regulation (EU) 2023/1805) requires that, between 2025 and 2030, the carbon intensity of energy used on ships must be 2% lower than the baseline level of 91.16 g-CO₂e per MJ, resulting in a limit of 89.34 g-CO₂e per MJ."
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 51,
+              "quote": "the EU ETS Directive. In the first year of implementation , 40% of the actual CO 2 emissions must be covered with EUAs and surrendered by September 2025. In the second phase, starting 2025, 70% of the actual CO2 emissions produced by the fleet will need to be covered with EUAs.…"
+            }
+          ]
+        },
+        {
+          "dimension": "Risk Management",
+          "score": 83,
+          "confidence": "high",
+          "rationale": "Risk Management score reflects 4 topic signals, 6 commitment/control signals, and evidence across 4 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 24,
+              "quote": "24 | 77 Consolidated Sustainability Statement 2024 The Group works with external experts and consultants where additional knowledge or expertise in certain areas is needed. In 2024, external support was utilised during the double materiality assessment process, the ESG data GAP…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 69,
+              "quote": "management of customer data has been and will continue to be a top priority for the Group. Alongside its overall safety management efforts, the Group remains committed to ensuring that customer data is handled securely and in strict compliance with all current and future…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "Eesti Energia",
+      "document": {
+        "company_id": "eesti-energia-annual",
+        "file_name": "eesti-energia-2025-final-en.pdf",
+        "report_year": "2025",
+        "source_url": "https://public-docs.enefit.com/ettevottest/investorile/eesti-energia-2025-final-en.pdf",
+        "prompt_injection_findings": []
+      },
+      "summary": {
+        "answer": "Eesti Energia report summary: EESTI ENERGIA ANNUAL REPORT 2025 SUSTAINABILITY STATEMENT General Information promoting distributed digital energy solutions, and effectively integrating sustainability principles into investment and procurement decisions.",
+        "sources": [
+          {
+            "document_name": "eesti-energia-2025-final-en.pdf",
+            "page": 85,
+            "quote": "EESTI ENERGIA ANNUAL REPORT 2025 SUSTAINABILITY STATEMENT General Information promoting distributed digital energy solutions, and effectively integrating sustainability principles into investment and procurement decisions. The actions planned for the strategy period include…"
+          },
+          {
+            "document_name": "eesti-energia-2025-final-en.pdf",
+            "page": 95,
+            "quote": "which is carried out through the units where climate-related performance indicators have been established. The most important frameworks guiding the implementation of the climate policy are the Paris Agreement, the European Green Deal, the EU ETS, the GHG Protocol, the ISO…"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "question": "What is the company’s purpose and main activities?",
+          "status": "answered",
+          "answer": "The report describes the company through its operating activities and strategic role: Following the application of the threshold, there were no Taxonomy-eligible activities contributing to objectives 3 (Water and marine resources), 4 (Circular economy), 5 (Pollution prevention and control) or 6 (Biodiversity Actions to mitigate these risks include increasing the proportion of biomass-based fuel used, conducting feasibility studies on carbon capture technologies, investing in activities aligned with the energy transition, and monitoring these activities using EU Taxonomy reporting. The measures are regularly updated to reflect changes in the Group’s strategy, activities and organisational structure.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 102,
+              "quote": "Group’s other activities were assessed as either outside the scope of the Delegated Acts or immaterial, and were therefore not included in the Taxonomy-eligible activities. 102 Translation of the company’s consolidated financial statements in pdf-format without European Single…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 101,
+              "quote": "wind power production is not recognised separately in Group- level segment reporting. Therefore, the Taxonomy report for 2025 does not include turnover from activities 4.1 (electricity generation using solar photovoltaic technology) and 4.3 (electricity generation from wind…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s primary focus?",
+          "status": "answered",
+          "answer": "The report evidence points to a focused set of commitments: The key new concepts introduced in IFRS 18 relate to: - the structure of the statement of profit or loss; - required disclosures in the financial statements for certain profit or loss performance measures that are reported outside an entity’s financial statements (that is, management-defined performance measures); and - enhanced principles on aggregation and disaggregation which apply to the primary financial statements and notes in general. This focus is supported by a renewed management structure implemented at the beginning of the year, which distinguishes core activities more clearly and streamlines management processes, enabling us to achieve the objectives set by the owner more effectively. To ensure a reliable energy supply across the region, a greater focus on system stability and energy security will also be required in 2026.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 155,
+              "quote": "the IASB has issued IFRS 18, the new standard on presentation and disclosure in financial statements, with a focus on updates to the statement of profit or loss. The key new concepts introduced in IFRS 18 relate to: - the structure of the statement of profit or loss; - required…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 22,
+              "quote": "we significantly exceeded our targets in the household customer segment, we fell short in certain areas of the business customer segment. Therefore, our main focus in 2026 will be on improving the experience of business customers. EESTI ENERGIA ANNUAL REPORT 2025 Translation of…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to risk management?",
+          "status": "answered",
+          "answer": "The report frames risk management as a governed control process: Any risks that could significantly impact the achievement of the Group’s objectives and targets are reported regularly to management teams, the management board, the audit committee and the supervisory board. RISK MANAGEMENT AND INTERNAL CONTROLS OVER SUSTAINABILITY STATEMENTING The Group operates an internal control and risk management system covering financial, operational and sustainability information. This framework is based on the three lines of defence model, as well as the Group’s principles and policies for internal control, risk management and compliance, as detailed in the 81",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 52,
+              "quote": "of our risk management processes and activities, as well as the achievement of our risk management objectives, using key performance indicators (KPIs) and other metrics. We validate these by assessing the maturity of risk management. Any risks that could significantly impact…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 53,
+              "quote": "business continuity risk analyses and plans in line with changes in the external environment and within the Group. • We organise training exercises to test recovery plans at individual units and across the Group. • We establish crisis committees at subsidiaries. • We identify…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to energy management?",
+          "status": "answered",
+          "answer": "The report links energy management to operational efficiency and transition actions: Streamlining the management model and strengthening the subsidiaries will enable the Group to respond more flexibly to market changes and develop solutions that support both customer expectations and the Estonian energy policy goals. 36 Eesti Energia started 2026 with a new management structure designed to support its goal of becoming the region’s leading energy company. Eesti Energia started 2026 with a renewed management structure to support its goal of becoming the leading energy company in the region.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 84,
+              "quote": "group when validating the results of the double materiality assessment, and by the management board when approving them. Thus, stakeholder input informs management decisions, the setting of sustainability priorities, and related disclosures. Information on stakeholders’…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 36,
+              "quote": "36 Eesti Energia started 2026 with a new management structure designed to support its goal of becoming the region’s leading energy company. The Group’s core business operations are now conducted through three subsidiaries: the electricity company Enefit, the industrial company…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to data security?",
+          "status": "answered",
+          "answer": "The report treats data and security as a control area: We systematically collect and analyse monitoring data, initiate additional studies where necessary, and implement preventive measures based on the information obtained. In preparing this statement, which is the Group’s first under the CSRD, the quality of sustainability-related data and related management processes have been enhanced to ensure the accuracy, completeness and reliability of the disclosures. To mitigate these risks, the Group plans to enhance data management and controls by prioritising data related to high-impact or high-risk sustainability topics.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 53,
+              "quote": "optimally, as well as by implementing new technological solutions and circular economy principles. • We control, manage and reduce our environmental impact by applying an environmental management system that complies with ISO 14001 and the Eco-Management and Audit Scheme…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 182,
+              "quote": "data of market participants, market prices of fuel inputs (CO2, gas, coal), data of plant and/or cable outages, knowledge of future developments. The fair value calculations are made on a monthly basis. The fair value of guarantees of origin is calculated using a valuation…"
+            }
+          ],
+          "missing_information": null
+        }
+      ],
+      "risk_scores": [
+        {
+          "dimension": "Environmental",
+          "score": 89,
+          "confidence": "high",
+          "rationale": "Environmental score reflects 4 topic signals, 7 commitment/control signals, and evidence across 4 page(s).",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 88,
+              "quote": "or other circumstances. At the time this sustainability statement is authorised for issue, the environmental policy is being updated to align with the owner’s and business lines’ revised expectations, which prioritise consistent improvements in the environmental friendliness of…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 110,
+              "quote": "environmental permits is monitored by the Environmental Board, which regularly inspects production units every one to three years. The Environmental Board also reviews the submitted environmental monitoring results and checks compliance with other requirements through the…"
+            }
+          ]
+        },
+        {
+          "dimension": "Social",
+          "score": 86,
+          "confidence": "high",
+          "rationale": "Social score reflects 5 topic signals, 6 commitment/control signals, and evidence across 5 page(s). It is moderated for 2 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 129,
+              "quote": "SUSTAINABILITY STATEMENT EESTI ENERGIA ANNUAL REPORT 2025 Social Information Table 26. Gender distribution at top management level Members of top management Male Female Total Supervisory board 2 3 5* Management board 3 2 5 Strategic managers 18 3 21 * A member of the…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 123,
+              "quote": "SUSTAINABILITY STATEMENT EESTI ENERGIA ANNUAL REPORT 2025 Social Information gradual retraining and consistent staff development to support adaptation and create opportunities for growth. The Group operates in EU countries that are considered to be at low risk of forced or…"
+            }
+          ]
+        },
+        {
+          "dimension": "Governance",
+          "score": 90,
+          "confidence": "high",
+          "rationale": "Governance score reflects 5 topic signals, 7 commitment/control signals, and evidence across 4 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 80,
+              "quote": "and technology. These competencies support effective monitoring of the Group’s material sustainability-related impacts, risks and opportunities, including those relating to climate change, pollution, circular economy, employee well-being and responsible business conduct.…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 133,
+              "quote": "a sanctioned country, they are excluded using the EU Sanctions Map website. The Group regularly engages with suppliers to prevent supply disruptions, ensure compliance with requirements, and minimise environmental impacts. Increasing the proportion of environmentally…"
+            }
+          ]
+        },
+        {
+          "dimension": "Security/Data",
+          "score": 82,
+          "confidence": "high",
+          "rationale": "Security/Data score reflects 4 topic signals, 6 commitment/control signals, and evidence across 5 page(s). It is moderated for 2 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 53,
+              "quote": "optimally, as well as by implementing new technological solutions and circular economy principles. • We control, manage and reduce our environmental impact by applying an environmental management system that complies with ISO 14001 and the Eco-Management and Audit Scheme…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 182,
+              "quote": "data of market participants, market prices of fuel inputs (CO2, gas, coal), data of plant and/or cable outages, knowledge of future developments. The fair value calculations are made on a monthly basis. The fair value of guarantees of origin is calculated using a valuation…"
+            }
+          ]
+        },
+        {
+          "dimension": "Energy",
+          "score": 75,
+          "confidence": "medium",
+          "rationale": "Energy score reflects 5 topic signals, 2 commitment/control signals, and evidence across 5 page(s). It is moderated for 2 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 71,
+              "quote": "74 121 459 145 47 103 65 99 Renewable energy and electricity sales Distribution Other Non-renewable energy production Shale oil Investment breakdown by segments m€ -264.4 (-36.5%) 2024 2025 724 459 24 182 61 33 160 397 13 156 104 54 Translation of the company’s consolidated…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 83,
+              "quote": "EESTI ENERGIA ANNUAL REPORT 2025 Translation of the company’s consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is digitally signed and submitted in machine-readable .xhtml format to the Nasdaq…"
+            }
+          ]
+        },
+        {
+          "dimension": "Risk Management",
+          "score": 85,
+          "confidence": "high",
+          "rationale": "Risk Management score reflects 3 topic signals, 7 commitment/control signals, and evidence across 5 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 52,
+              "quote": "of our risk management processes and activities, as well as the achievement of our risk management objectives, using key performance indicators (KPIs) and other metrics. We validate these by assessing the maturity of risk management. Any risks that could significantly impact…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 53,
+              "quote": "business continuity risk analyses and plans in line with changes in the external environment and within the Group. • We organise training exercises to test recovery plans at individual units and across the Group. • We establish crisis committees at subsidiaries. • We identify…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "Eesti Energia SPO",
+      "document": {
+        "company_id": "eesti-energia-spo",
+        "file_name": "Eesti-SPO-UoP.pdf",
+        "report_year": "2024",
+        "source_url": "https://public-docs.enefit.ee/ettevottest/investorile/ESG/Eesti-SPO-UoP.pdf",
+        "prompt_injection_findings": []
+      },
+      "summary": {
+        "answer": "Eesti Energia SPO report summary: S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 6 o f 26 Consistency of Green Financing Instruments with Eesti Energia’s Sustainability Strategy described by the Issuer.",
+        "sources": [
+          {
+            "document_name": "Eesti-SPO-UoP.pdf",
+            "page": 6,
+            "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 6 o f 26 Consistency of Green Financing Instruments with Eesti Energia’s Sustainability Strategy described by the Issuer. All the project categories…"
+          },
+          {
+            "document_name": "Eesti-SPO-UoP.pdf",
+            "page": 21,
+            "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 21 o f 26 marketing, business and information technology, and observers from the risk management and internal audit departments. Furthermore, in June 2024…"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "question": "What is the company’s purpose and main activities?",
+          "status": "answered",
+          "answer": "The report describes the company through its operating activities and strategic role: For instance, among the three main methods for cable 8 Environmental Impact Assessment and Environmental Management System Act, available here: https://www.riigiteataja.ee/en/eli/506102023008/c onsolide and Planning Act, available here: https://www.riigiteataja.ee/en/eli/ee/504072023008/consolide/current 9 Waste Management Act, available here: https://www.riigiteataja.ee/akt/12894710 10 For instance, in case of planned maintenance and construction the Law Enforcement Act applies, which provides for such activities to be carried out during quiet hours. Management Act, available here: https://www.riigiteataja.ee/akt/12894710 10 For instance, in case of planned maintenance and construction the Law Enforcement Act applies, which provides for such activities to be carried out during quiet hours. For more information, please visit: https://www.iss-corporate.com/file/publications/methodology/iss-corporate-green-social- and-sustainability-bond-loan-spo-methodology-summary.pdf EU Taxonomy The assessment evaluates whether the details of the nominated projects and assets or project selection eligibility criteria included in the Green Finance Framework meet the criteria listed in relevant Activities in the EU Taxonomy Climate Delegated Act (June 2023).",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 12,
+              "quote": "national and company standards to ensure assets financed under this category meet high environmental standards and requirements during the construction phase (e.g., noise mitigation, minimization of environmental impact during construction work) .10 The relevant mitigation…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 12,
+              "quote": "Management Act, available here: https://www.riigiteataja.ee/akt/12894710 10 For instance, in case of planned maintenance and construction the Law Enforcement Act applies, which provides for such activities to be carried out during quiet hours. The Act is available here:…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s primary focus?",
+          "status": "not_found",
+          "answer": null,
+          "confidence": "low",
+          "sources": [],
+          "missing_information": "No relevant source text was retrieved for this question."
+        },
+        {
+          "question": "What is the company’s commitment to risk management?",
+          "status": "answered",
+          "answer": "The report frames risk management as a governed control process: ESG Risk and Sustainability Strategy Management The Issuer has a strategic leadership team in place to implement the ESG strategy and oversee ESG topics . S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 21 o f 26 marketing, business and information technology, and observers from the risk management and internal audit departments. To further reduce customers’ CO2 emissions, the Issuer is considering providing the renewal of indoor and street lighting management 22 Measured through Eesti Energia’s annual employee engagement and management quality survey .",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 20,
+              "quote": "2027 -2030, during which research and development of technologies to move away from oil sha le will be fostere d. The Issuer will prepare a hydrogen -ready plant, which will start production in 2029 , additional onshore wind farms and an offshore wind farm. ▪ The third period…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to energy management?",
+          "status": "answered",
+          "answer": "The report links energy management to operational efficiency and transition actions: ▪ Increase its management quality to at least 86 (compared to 80 in 2022).22 Regarding the ethical corporate governance, Eesti Energia is committed to reduce the percentage of employees that have experienced un ethical behavior from 18% in 2022 to 5% by 2026.23 Action plan The Issuer is implementing the following actions to meet the environmental targets: ▪ Help customers implement their green transition, thereby reducing their environmental footprint. To further reduce customers’ CO2 emissions, the Issuer is considering providing the renewal of indoor and street lighting management 22 Measured through Eesti Energia’s annual employee engagement and management quality survey . 23 Employees give feedback on a 5-point scale during the employee engagement and management quality survey.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 19,
+              "quote": "energy connection from third parties. ▪ Implement storage solutions. In addition to guiding customers towards greener practices, Eesti Energia will provide storage solutions to optimize energy usage and develop electromobility solutions to enable wider access to electric cars.…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to data security?",
+          "status": "answered",
+          "answer": "The report treats data and security as a control area: Data protection and information security ✓ The Issuer confirmed that it collects personal information of private customers. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have systematically implemented life-cycle management practices, which include unified spare -part management across the public charging infrastructure and electronic waste management. S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 26 o f 26 About this SPO Companies turn to ISS-Corporate for expertise in designing and managing governance, compensation, sustainability and cyber risk programs that align with company goals, reduce risk, and manage the needs of a diverse shareholder base by delivering best -in-class data, tools, and advisory services.",
+          "confidence": "low",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 14 o f 26 activities and inspections , avoiding CO 2 emissions caused by transport s. Whenever possible, electric vehicles are used to carry out…"
+            }
+          ],
+          "missing_information": null
+        }
+      ],
+      "risk_scores": [
+        {
+          "dimension": "Environmental",
+          "score": 83,
+          "confidence": "high",
+          "rationale": "Environmental score reflects 3 topic signals, 7 commitment/control signals, and evidence across 4 page(s).",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 12,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 12 o f 26 line corridor safety zones. Elektrilevi ensures via its procedures that only personnel with sufficient knowledge and certifications are allowed…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 12,
+              "quote": "national and company standards to ensure assets financed under this category meet high environmental standards and requirements during the construction phase (e.g., noise mitigation, minimization of environmental impact during construction work) .10 The relevant mitigation…"
+            }
+          ]
+        },
+        {
+          "dimension": "Social",
+          "score": 57,
+          "confidence": "medium",
+          "rationale": "Social score reflects 1 topic signals, 2 commitment/control signals, and evidence across 5 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 2,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 2 o f 26 C O N T E N T S SCOPE OF WORK…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 11,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 11 o f 26 B. MANAGEMENT OF ENVIRONMENTAL & SOCIAL RISKS ASSOCIATED WITH THE SELECTION CRITERIA The table below evaluates the Selection Criteria against…"
+            }
+          ]
+        },
+        {
+          "dimension": "Governance",
+          "score": 69,
+          "confidence": "medium",
+          "rationale": "Governance score reflects 2 topic signals, 5 commitment/control signals, and evidence across 4 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 19,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 19 o f 26 ▪ Achieving carbon neutrality in terms of Scope 1 emissions from facilities owned by 2045. To achieve a people-first green journey, Eesti…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 20,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 20 o f 26 services, saving an estimated 1,550 metric tons of CO2 by 2027. For its people-first green journey and ethical corporate governance targets,…"
+            }
+          ]
+        },
+        {
+          "dimension": "Security/Data",
+          "score": 79,
+          "confidence": "high",
+          "rationale": "Security/Data score reflects 4 topic signals, 5 commitment/control signals, and evidence across 4 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 14 o f 26 activities and inspections , avoiding CO 2 emissions caused by transport s. Whenever possible, electric vehicles are used to carry out…"
+            }
+          ]
+        },
+        {
+          "dimension": "Energy",
+          "score": 92,
+          "confidence": "high",
+          "rationale": "Energy score reflects 6 topic signals, 6 commitment/control signals, and evidence across 4 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 4,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 4 o f 26 EESTI ENERGIA OVERVIEW Eesti Energia AS produces, sells and transmits electric and thermal power. It offers energy solutions from electricity,…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 19,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 19 o f 26 ▪ Achieving carbon neutrality in terms of Scope 1 emissions from facilities owned by 2045. To achieve a people-first green journey, Eesti…"
+            }
+          ]
+        },
+        {
+          "dimension": "Risk Management",
+          "score": 69,
+          "confidence": "medium",
+          "rationale": "Risk Management score reflects 2 topic signals, 4 commitment/control signals, and evidence across 5 page(s). It is moderated for 1 risk or uncertainty signal(s).",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 20,
+              "quote": "2027 -2030, during which research and development of technologies to move away from oil sha le will be fostere d. The Issuer will prepare a hydrogen -ready plant, which will start production in 2029 , additional onshore wind farms and an offshore wind farm. ▪ The third period…"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "generated_at": "2026-05-22T05:00:06.227175+00:00",
+  "model": {
+    "provider": "openai",
+    "name": "gpt-5.4-mini"
+  },
+  "generation_mode": "openai",
+  "companies": [
+    {
+      "company_name": "Tallink Grupp",
+      "document": {
+        "company_id": "tallink-grupp",
+        "file_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+        "report_year": "2024",
+        "source_url": "https://image.tallink.com/image/upload/grupp/documents/sustainability-reports/Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+        "source_type": "baseline",
+        "document_label": null,
+        "generation_mode": "openai",
+        "prompt_injection_findings": []
+      },
+      "summary": {
+        "answer": "Tallink Grupp’s annual report presents it as a transport/logistics and ship-operating business, with services, markets and segments integrated into the reporting framework. ESG priorities are centered on embedding sustainability into the overall strategy, improving customer safety, data protection and human rights, and reducing emissions through cleaner operations such as shore power. Strategically, the company emphasizes stakeholder dialogue, materiality-based assessment, and concrete ESG action plans to manage risks and support long-term value creation.",
+        "sources": [
+          {
+            "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+            "page": 19,
+            "quote": "19 | 77 Consolidated Sustainability Statement 2024 ESG Strategy The Group’s strategy , description of its services, markets and segments, as well as the number of employees, can be found in the Annual Report on pages 5-8 and 13. This section focuses specifically on how…"
+          },
+          {
+            "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+            "page": 6,
+            "quote": "6 | 77 Consolidated Sustainability Statement 2024 Incorporation by Reference The following table outlines the locations of ESRS disclosures that have been incorporated by reference and presented outside the sustainability statement, appearing in other sections of the Annual…"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "question": "What is the company’s purpose and main activities?",
+          "status": "not_found",
+          "answer": null,
+          "confidence": "low",
+          "sources": [],
+          "missing_information": "The provided context states Tallink Grupp’s main activities, but it does not state the company’s purpose."
+        },
+        {
+          "question": "What is the company’s primary focus?",
+          "status": "answered",
+          "answer": "The company’s primary focus is its own operations, especially passenger and cargo transport through ferry and cruise services across the Baltic Sea.",
+          "confidence": "high",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 20,
+              "quote": "communication, including software for logistics and data management. SUPPORT ACTIVITY Governance & Compliance Ensuring compliance with the EU regulations, including the Corporate Sustainability Reporting Directive (CSRD), and meeting the European Sustainability Reporting…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 21,
+              "quote": "21 | 77 Consolidated Sustainability Statement 2024 PRIMARY ACTIVITY Outbound Logistics Logistics & Distribution (Cargo): Delivering cargo to ports and managing logistics for efficient loading/unloading. Collaboration with green logistics partners and using electrified vehicles…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to risk management?",
+          "status": "answered",
+          "answer": "Tallink Grupp states that risk management is a continuous responsibility of the entire Management Board, and that identified risks are handled within the Group’s overall risk management framework through regular meetings and proactive follow-up.",
+          "confidence": "high",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 24,
+              "quote": "other risks but are considered on the same basis as part of the Group’s overall risk management framework. Issues relating to IROs have been raised with the Group’s cross-function leadership team and Management Board during the 2024 in regular meetings that take place either…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 24,
+              "quote": "24 | 77 Consolidated Sustainability Statement 2024 The Group works with external experts and consultants where additional knowledge or expertise in certain areas is needed. In 2024, external support was utilised during the double materiality assessment process, the ESG data GAP…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to energy management?",
+          "status": "answered",
+          "answer": "Tallink Grupp’s commitment to energy management is to prioritize energy efficiency and to monitor advancements in sustainable fuel and renewable energy technologies, supported by continuous investments in innovative technologies.",
+          "confidence": "high",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 69,
+              "quote": "management of customer data has been and will continue to be a top priority for the Group. Alongside its overall safety management efforts, the Group remains committed to ensuring that customer data is handled securely and in strict compliance with all current and future…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 23,
+              "quote": "year and approved by the Management Board. The internal audit drafts an audit report and presents it to the Management Board. There are regular follow -up audits to check if the risks presented in the audit have been mitigated. The identification of the Group’s impacts, risks…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to data security?",
+          "status": "answered",
+          "answer": "Tallink Grupp says customer data management is a top priority and that it is committed to handling customer data securely and in strict compliance with all current and future regulations and laws. The company also backs this with ongoing IT system upgrades and investments in IT security and data protection enhancements.",
+          "confidence": "high",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 35,
+              "quote": "breaches, ensure compliance with data protection regulations, and maintain customer trust. Effective data protection practices mitigate risks associated with potential financial liabi lities, such as fines under General Data Protection Regulation ( GDPR), and safeguard against…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 70,
+              "quote": "handled responsibly and securely. The key activities in data protection include GDPR compliance and data incident monitoring, with incident analysis and procedural improvements implemented as necessary. The Group continuously upgrades IT systems to ensure compliance with data…"
+            }
+          ],
+          "missing_information": null
+        }
+      ],
+      "risk_scores": [
+        {
+          "dimension": "Environmental",
+          "score": 56,
+          "confidence": "medium",
+          "rationale": "Tallink Grupp shows some environmental management and stakeholder awareness, but the evidence also highlights dependence on future low-carbon fuel availability and the need for more shore power. That suggests an active transition agenda, yet material execution risk remains.",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 19,
+              "quote": "broad customer base is closely tied to fostering sustainable business relationships within the supply chain and implementing environmental practices that promote greener and more s ustainable service delivery. Additionally, the Group emphasises the importance of ensuring good…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 22,
+              "quote": "of GHG emissions reductions are based on the expectation and assumption that a sustainable alternative shipping fuel will be developed and available to shipping companies within the next 5-10 years. → Medium- to long-term achievement of GHG emissions reductions additionally…"
+            }
+          ]
+        },
+        {
+          "dimension": "Social",
+          "score": 58,
+          "confidence": "low",
+          "rationale": "The available context indicates attention to fair labour practices and community impacts, but it does not provide much direct evidence of implemented social controls or outcomes. Reporting on supplier-related criteria also appears newly established, which lowers confidence.",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 3,
+              "quote": "3 | 77 AS Tallink Grupp Consolidated Sustainability Statement 2024 CONTENTS Basis for Preparation ..................................................................................................................... 4 Incorporation by Reference…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 75,
+              "quote": "their Scope 3 emissions. Social Factors → 48% of companies have policies and practices in place to address the impact of their activities on affected communities. → 96% of companies have policies and practices in place to ensure fair labour practices, including safe working…"
+            }
+          ]
+        },
+        {
+          "dimension": "Governance",
+          "score": 74,
+          "confidence": "medium",
+          "rationale": "Governance appears relatively well developed, with explicit business conduct and supplier-management disclosure and a whistleblowing channel for external stakeholders. The main limitation is that the supplied excerpts do not show detailed performance evidence or outcomes.",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 12,
+              "quote": "material impacts, risks, and opportunities Double Materiality Assessment Overview of Material Impacts, Risks, and Opportunities 25-28 32-36 G1-1 Business conduct policies and corporate culture Governance 72-77 G1-2 Management of relationships with suppliers Governance 72-77…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 72,
+              "quote": "72 | 77 Consolidated Sustainability Statement 2024 the Group fosters a culture of trust and responsiveness, strengthening its relationship with consumers and enhancing their overall experience. The Group has a whistleblowing policy in place that enables external stakeholders to…"
+            }
+          ]
+        },
+        {
+          "dimension": "Security/Data",
+          "score": 78,
+          "confidence": "high",
+          "rationale": "The company states that customer data protection is a top priority and describes concrete controls such as GDPR compliance, incident monitoring, procedural improvements, and IT system upgrades. That is solid evidence of managed data-security risk, though actual incident outcomes are not provided.",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 70,
+              "quote": "handled responsibly and securely. The key activities in data protection include GDPR compliance and data incident monitoring, with incident analysis and procedural improvements implemented as necessary. The Group continuously upgrades IT systems to ensure compliance with data…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 69,
+              "quote": "management of customer data has been and will continue to be a top priority for the Group. Alongside its overall safety management efforts, the Group remains committed to ensuring that customer data is handled securely and in strict compliance with all current and future…"
+            }
+          ]
+        },
+        {
+          "dimension": "Energy",
+          "score": 49,
+          "confidence": "medium",
+          "rationale": "Energy risk is elevated by regulatory pressure from FuelEU Maritime and EU ETS obligations, which increase compliance and cost exposure. The excerpts do not show equally strong evidence of near-term decarbonisation execution, so the risk remains material.",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 32,
+              "quote": "topical 1 The FuelEU Maritime Regulation (Regulation (EU) 2023/1805) requires that, between 2025 and 2030, the carbon intensity of energy used on ships must be 2% lower than the baseline level of 91.16 g-CO₂e per MJ, resulting in a limit of 89.34 g-CO₂e per MJ."
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 51,
+              "quote": "the EU ETS Directive. In the first year of implementation , 40% of the actual CO 2 emissions must be covered with EUAs and surrendered by September 2025. In the second phase, starting 2025, 70% of the actual CO2 emissions produced by the fleet will need to be covered with EUAs.…"
+            }
+          ]
+        },
+        {
+          "dimension": "Risk Management",
+          "score": 70,
+          "confidence": "medium",
+          "rationale": "The company appears to have a formalized risk process, including double materiality assessment, use of external experts, and explicit evaluation of likelihood and magnitude. This is a positive signal, although the supplied context does not show full remediation effectiveness or testing results.",
+          "sources": [
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 24,
+              "quote": "24 | 77 Consolidated Sustainability Statement 2024 The Group works with external experts and consultants where additional knowledge or expertise in certain areas is needed. In 2024, external support was utilised during the double materiality assessment process, the ESG data GAP…"
+            },
+            {
+              "document_name": "Tallink-Grupp-Sustainability-Report-2024-ENG-updated.pdf",
+              "page": 69,
+              "quote": "management of customer data has been and will continue to be a top priority for the Group. Alongside its overall safety management efforts, the Group remains committed to ensuring that customer data is handled securely and in strict compliance with all current and future…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "Eesti Energia",
+      "document": {
+        "company_id": "eesti-energia-annual",
+        "file_name": "eesti-energia-2025-final-en.pdf",
+        "report_year": "2025",
+        "source_url": "https://public-docs.enefit.com/ettevottest/investorile/eesti-energia-2025-final-en.pdf",
+        "source_type": "baseline",
+        "document_label": null,
+        "generation_mode": "openai",
+        "prompt_injection_findings": []
+      },
+      "summary": {
+        "answer": "Eesti Energia is an integrated energy group with three main business lines: electricity, the distribution network, and industry. Its ESG focus is centered on climate change, pollution, circular economy, employee well-being, and responsible business conduct. Strategically, the report emphasizes expanding renewable electricity and storage, making the grid more digitalised and resilient, upcycling industrial by-products, and embedding sustainability into investment and procurement to support a cleaner and more competitive energy system.",
+        "sources": [
+          {
+            "document_name": "eesti-energia-2025-final-en.pdf",
+            "page": 85,
+            "quote": "EESTI ENERGIA ANNUAL REPORT 2025 SUSTAINABILITY STATEMENT General Information promoting distributed digital energy solutions, and effectively integrating sustainability principles into investment and procurement decisions. The actions planned for the strategy period include…"
+          },
+          {
+            "document_name": "eesti-energia-2025-final-en.pdf",
+            "page": 95,
+            "quote": "which is carried out through the units where climate-related performance indicators have been established. The most important frameworks guiding the implementation of the climate policy are the Paris Agreement, the European Green Deal, the EU ETS, the GHG Protocol, the ISO…"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "question": "What is the company’s purpose and main activities?",
+          "status": "not_found",
+          "answer": null,
+          "confidence": "low",
+          "sources": [],
+          "missing_information": "The provided context does not explicitly state Eesti Energia’s purpose. It only identifies main activity areas such as wind and solar electricity generation, electricity transmission and distribution, electricity storage, and EV charging infrastructure."
+        },
+        {
+          "question": "What is the company’s primary focus?",
+          "status": "answered",
+          "answer": "The company’s main focus in 2026 will be on improving the experience of business customers.",
+          "confidence": "high",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 155,
+              "quote": "the IASB has issued IFRS 18, the new standard on presentation and disclosure in financial statements, with a focus on updates to the statement of profit or loss. The key new concepts introduced in IFRS 18 relate to: - the structure of the statement of profit or loss; - required…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 22,
+              "quote": "we significantly exceeded our targets in the household customer segment, we fell short in certain areas of the business customer segment. Therefore, our main focus in 2026 will be on improving the experience of business customers. EESTI ENERGIA ANNUAL REPORT 2025 Translation of…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to risk management?",
+          "status": "answered",
+          "answer": "Eesti Energia states that it has implemented risk management measures to prevent risks from materialising, and that its principles and policies are guided by international standards and best practice.",
+          "confidence": "high",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 52,
+              "quote": "of our risk management processes and activities, as well as the achievement of our risk management objectives, using key performance indicators (KPIs) and other metrics. We validate these by assessing the maturity of risk management. Any risks that could significantly impact…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 53,
+              "quote": "business continuity risk analyses and plans in line with changes in the external environment and within the Group. • We organise training exercises to test recovery plans at individual units and across the Group. • We establish crisis committees at subsidiaries. • We identify…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to energy management?",
+          "status": "not_found",
+          "answer": null,
+          "confidence": "low",
+          "sources": [],
+          "missing_information": "The provided Eesti Energia excerpts do not explicitly state a commitment to energy management. They mention energy transition, renewable energy, and that EU ETS is embedded in financial management, investment assessment and risk management, but not a specific energy management commitment."
+        },
+        {
+          "question": "What is the company’s commitment to data security?",
+          "status": "answered",
+          "answer": "Eesti Energia states that it manages information security risk, with the main risks being information system failure and loss of data integrity or confidentiality, and that it conducts and updates risk analyses for essential and business-critical activities/systems.",
+          "confidence": "medium",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 53,
+              "quote": "optimally, as well as by implementing new technological solutions and circular economy principles. • We control, manage and reduce our environmental impact by applying an environmental management system that complies with ISO 14001 and the Eco-Management and Audit Scheme…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 182,
+              "quote": "data of market participants, market prices of fuel inputs (CO2, gas, coal), data of plant and/or cable outages, knowledge of future developments. The fair value calculations are made on a monthly basis. The fair value of guarantees of origin is calculated using a valuation…"
+            }
+          ],
+          "missing_information": null
+        }
+      ],
+      "risk_scores": [
+        {
+          "dimension": "Environmental",
+          "score": 72,
+          "confidence": "high",
+          "rationale": "Environmental risk appears moderately well controlled. Eesti Energia has external permit oversight and a formal long-term decarbonisation objective, but the environmental policy is still being updated, indicating some transition work remains in progress.",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 88,
+              "quote": "or other circumstances. At the time this sustainability statement is authorised for issue, the environmental policy is being updated to align with the owner’s and business lines’ revised expectations, which prioritise consistent improvements in the environmental friendliness of…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 110,
+              "quote": "environmental permits is monitored by the Environmental Board, which regularly inspects production units every one to three years. The Environmental Board also reviews the submitted environmental monitoring results and checks compliance with other requirements through the…"
+            }
+          ]
+        },
+        {
+          "dimension": "Social",
+          "score": 74,
+          "confidence": "medium",
+          "rationale": "Social risk is fairly well managed based on evidence of workforce development, low exposure to forced or child labour, and formal health-and-safety reporting and oversight. The main limitation is that the supplied excerpts provide process evidence more than outcome evidence.",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 129,
+              "quote": "SUSTAINABILITY STATEMENT EESTI ENERGIA ANNUAL REPORT 2025 Social Information Table 26. Gender distribution at top management level Members of top management Male Female Total Supervisory board 2 3 5* Management board 3 2 5 Strategic managers 18 3 21 * A member of the…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 123,
+              "quote": "SUSTAINABILITY STATEMENT EESTI ENERGIA ANNUAL REPORT 2025 Social Information gradual retraining and consistent staff development to support adaptation and create opportunities for growth. The Group operates in EU countries that are considered to be at low risk of forced or…"
+            }
+          ]
+        },
+        {
+          "dimension": "Governance",
+          "score": 75,
+          "confidence": "medium",
+          "rationale": "Governance risk is moderated by evidence of defined competencies for sustainability oversight, supplier compliance checks, and regular audit/governance processes. The excerpts do not show detailed board independence or anti-corruption controls, so confidence is medium rather than high.",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 80,
+              "quote": "and technology. These competencies support effective monitoring of the Group’s material sustainability-related impacts, risks and opportunities, including those relating to climate change, pollution, circular economy, employee well-being and responsible business conduct.…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 133,
+              "quote": "a sanctioned country, they are excluded using the EU Sanctions Map website. The Group regularly engages with suppliers to prevent supply disruptions, ensure compliance with requirements, and minimise environmental impacts. Increasing the proportion of environmentally…"
+            }
+          ]
+        },
+        {
+          "dimension": "Security/Data",
+          "score": 60,
+          "confidence": "low",
+          "rationale": "The provided excerpts show structured reporting controls and defined management practices, but they do not directly evidence dedicated cybersecurity, privacy, or data-loss controls. Because the context is indirect, the score is moderate and confidence is low.",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 53,
+              "quote": "optimally, as well as by implementing new technological solutions and circular economy principles. • We control, manage and reduce our environmental impact by applying an environmental management system that complies with ISO 14001 and the Eco-Management and Audit Scheme…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 182,
+              "quote": "data of market participants, market prices of fuel inputs (CO2, gas, coal), data of plant and/or cable outages, knowledge of future developments. The fair value calculations are made on a monthly basis. The fair value of guarantees of origin is calculated using a valuation…"
+            }
+          ]
+        },
+        {
+          "dimension": "Energy",
+          "score": 58,
+          "confidence": "medium",
+          "rationale": "Energy risk remains material because the group still operates a mix that includes non-renewable production and shale oil, even though it is also investing in renewables and the broader transition to a climate-neutral system. This points to meaningful transition exposure but not a lack of strategic direction.",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 71,
+              "quote": "74 121 459 145 47 103 65 99 Renewable energy and electricity sales Distribution Other Non-renewable energy production Shale oil Investment breakdown by segments m€ -264.4 (-36.5%) 2024 2025 724 459 24 182 61 33 160 397 13 156 104 54 Translation of the company’s consolidated…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 83,
+              "quote": "EESTI ENERGIA ANNUAL REPORT 2025 Translation of the company’s consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is digitally signed and submitted in machine-readable .xhtml format to the Nasdaq…"
+            }
+          ]
+        },
+        {
+          "dimension": "Risk Management",
+          "score": 82,
+          "confidence": "high",
+          "rationale": "Risk management appears strong. The company uses KPIs and maturity assessment, runs business continuity analyses and recovery exercises, and has crisis committees and business-critical service reviews. These are clear signs of established control processes.",
+          "sources": [
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 52,
+              "quote": "of our risk management processes and activities, as well as the achievement of our risk management objectives, using key performance indicators (KPIs) and other metrics. We validate these by assessing the maturity of risk management. Any risks that could significantly impact…"
+            },
+            {
+              "document_name": "eesti-energia-2025-final-en.pdf",
+              "page": 53,
+              "quote": "business continuity risk analyses and plans in line with changes in the external environment and within the Group. • We organise training exercises to test recovery plans at individual units and across the Group. • We establish crisis committees at subsidiaries. • We identify…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "Eesti Energia SPO",
+      "document": {
+        "company_id": "eesti-energia-spo",
+        "file_name": "Eesti-SPO-UoP.pdf",
+        "report_year": "2024",
+        "source_url": "https://public-docs.enefit.ee/ettevottest/investorile/ESG/Eesti-SPO-UoP.pdf",
+        "source_type": "baseline",
+        "document_label": null,
+        "generation_mode": "openai",
+        "prompt_injection_findings": []
+      },
+      "summary": {
+        "answer": "Eesti Energia is a Tallinn-based multi-utility that produces, sells and transmits electric and thermal power, and provides energy solutions across electricity, heat, fuel production, sales and customer service. The SPO highlights core ESG themes typical for the sector: building a more sustainable energy system, improving resource efficiency, maintaining reliable energy supply, protecting worker safety, ensuring environmentally safe operations, and respecting human rights and community relations. Strategically, Eesti Energia’s transition path is centered on carbon neutrality by 2045, with near-term goals to cut carbon intensity and raise renewable electricity output, and later-stage R&D to move away from oil shale and develop hydrogen. Governance and reporting are also emphasized: the company uses ethical rules and a code of ethics, reports ESG performance in its annual report under GRI standards, and had no significant controversies identified in the SPO review.",
+        "sources": [
+          {
+            "document_name": "Eesti-SPO-UoP.pdf",
+            "page": 6,
+            "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 6 o f 26 Consistency of Green Financing Instruments with Eesti Energia’s Sustainability Strategy described by the Issuer. All the project categories…"
+          },
+          {
+            "document_name": "Eesti-SPO-UoP.pdf",
+            "page": 21,
+            "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 21 o f 26 marketing, business and information technology, and observers from the risk management and internal audit departments. Furthermore, in June 2024…"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "question": "What is the company’s purpose and main activities?",
+          "status": "not_found",
+          "answer": null,
+          "confidence": "low",
+          "sources": [],
+          "missing_information": "The provided context does not explicitly state Eesti Energia’s overall purpose or a full description of its main activities."
+        },
+        {
+          "question": "What is the company’s primary focus?",
+          "status": "not_found",
+          "answer": null,
+          "confidence": "low",
+          "sources": [],
+          "missing_information": "No relevant source text was retrieved for this question."
+        },
+        {
+          "question": "What is the company’s commitment to risk management?",
+          "status": "answered",
+          "answer": "The company states that ESG risks associated with its project categories are identified and managed appropriately. It also says its strategic leadership team includes observers from the risk management and internal audit departments.",
+          "confidence": "high",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 20,
+              "quote": "2027 -2030, during which research and development of technologies to move away from oil sha le will be fostere d. The Issuer will prepare a hydrogen -ready plant, which will start production in 2029 , additional onshore wind farms and an offshore wind farm. ▪ The third period…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to energy management?",
+          "status": "answered",
+          "answer": "Eesti Energia says it will provide storage solutions to optimize energy usage, alongside developing electromobility solutions and guiding customers toward greener practices.",
+          "confidence": "medium",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 19,
+              "quote": "energy connection from third parties. ▪ Implement storage solutions. In addition to guiding customers towards greener practices, Eesti Energia will provide storage solutions to optimize energy usage and develop electromobility solutions to enable wider access to electric cars.…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            }
+          ],
+          "missing_information": null
+        },
+        {
+          "question": "What is the company’s commitment to data security?",
+          "status": "answered",
+          "answer": "The company says its personal data is processed on an outsourced platform under a Data Processing Agreement compliant with the EU General Data Protection Regulation and national legislation, and customers can delete their account and personal data.",
+          "confidence": "high",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 14 o f 26 activities and inspections , avoiding CO 2 emissions caused by transport s. Whenever possible, electric vehicles are used to carry out…"
+            }
+          ],
+          "missing_information": null
+        }
+      ],
+      "risk_scores": [
+        {
+          "dimension": "Environmental",
+          "score": 74,
+          "confidence": "medium",
+          "rationale": "The cited context shows clear environmental controls for project selection and construction, including mitigation measures, planning principles to prefer existing corridors, and compliance with vegetation-management rules. This suggests reasonably strong environmental risk management, though the evidence is limited to a few framework statements rather than detailed performance data.",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 12,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 12 o f 26 line corridor safety zones. Elektrilevi ensures via its procedures that only personnel with sufficient knowledge and certifications are allowed…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 12,
+              "quote": "national and company standards to ensure assets financed under this category meet high environmental standards and requirements during the construction phase (e.g., noise mitigation, minimization of environmental impact during construction work) .10 The relevant mitigation…"
+            }
+          ]
+        },
+        {
+          "dimension": "Social",
+          "score": 50,
+          "confidence": "low",
+          "rationale": "The context provides only limited direct social-risk evidence. It does indicate that environmental and social risks are evaluated within selection criteria, but there is little detail on labor, community, human-rights, or supply-chain controls. As a result, the score is moderate but confidence is low.",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 2,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 2 o f 26 C O N T E N T S SCOPE OF WORK…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 11,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 11 o f 26 B. MANAGEMENT OF ENVIRONMENTAL & SOCIAL RISKS ASSOCIATED WITH THE SELECTION CRITERIA The table below evaluates the Selection Criteria against…"
+            }
+          ]
+        },
+        {
+          "dimension": "Governance",
+          "score": 55,
+          "confidence": "low",
+          "rationale": "The snippets show strategic sustainability and ethical-governance ambitions, including a carbon-neutrality target and 'people-first green journey' language, but they do not provide much evidence of governance structure, board oversight, or formal accountability mechanisms. One snippet also suggests a lack of a specific governance target, which tempers the score.",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 19,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 19 o f 26 ▪ Achieving carbon neutrality in terms of Scope 1 emissions from facilities owned by 2045. To achieve a people-first green journey, Eesti…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 20,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 20 o f 26 services, saving an estimated 1,550 metric tons of CO2 by 2027. For its people-first green journey and ethical corporate governance targets,…"
+            }
+          ]
+        },
+        {
+          "dimension": "Security/Data",
+          "score": 68,
+          "confidence": "medium",
+          "rationale": "The context shows concrete data-protection controls: the outsourced platform is governed by a Data Processing Agreement, and the arrangement is stated to be compliant with GDPR and national legislation. There is also an explicit option for users to delete their account and personal data. Evidence is still limited to a narrow excerpt, so the score is positive but not higher.",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 14 o f 26 activities and inspections , avoiding CO 2 emissions caused by transport s. Whenever possible, electric vehicles are used to carry out…"
+            }
+          ]
+        },
+        {
+          "dimension": "Energy",
+          "score": 72,
+          "confidence": "medium",
+          "rationale": "Eesti Energia is described as an integrated energy company, and the context shows a transition-oriented strategy: carbon neutrality for Scope 1 by 2045, storage solutions, electromobility, EV charging, and steps toward greener energy usage. The presence of thermal power and oil-shale transition language indicates ongoing transition risk, but the forward strategy supports a fairly strong score.",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 4,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 4 o f 26 EESTI ENERGIA OVERVIEW Eesti Energia AS produces, sells and transmits electric and thermal power. It offers energy solutions from electricity,…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 19,
+              "quote": "S E C O N D P A R T Y O P I N I O N Sustainability Quality of the Issuer and Green Finance Framework www.iss -corporate.com 19 o f 26 ▪ Achieving carbon neutrality in terms of Scope 1 emissions from facilities owned by 2045. To achieve a people-first green journey, Eesti…"
+            }
+          ]
+        },
+        {
+          "dimension": "Risk Management",
+          "score": 63,
+          "confidence": "medium",
+          "rationale": "The issuer appears to have an articulated transition plan and some operational controls, including a phased move toward hydrogen-ready plants, wind farms, storage, and EV-related solutions. However, the evidence is mostly strategic and does not demonstrate detailed enterprise risk governance, and one excerpt suggests a gap in systematic implementation. Overall this supports a mid-range score.",
+          "sources": [
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 14,
+              "quote": "option to delete their account and personal data. The data processing by the outsourced platform is regulated by a Data Pro cessing Agreement that is compliant with the EU General Data Protection Regulation and national legislation.16 Environment  The Issuer does not have…"
+            },
+            {
+              "document_name": "Eesti-SPO-UoP.pdf",
+              "page": 20,
+              "quote": "2027 -2030, during which research and development of technologies to move away from oil sha le will be fostere d. The Issuer will prepare a hydrogen -ready plant, which will start production in 2029 , additional onshore wind farms and an offshore wind farm. ▪ The third period…"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
