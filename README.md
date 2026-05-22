@@ -1,33 +1,66 @@
 # ESG Risk Dashboard
 
-Interactive full-stack ESG risk dashboard with a FastAPI backend, React frontend, local SQLite persistence, PDF upload, grounded report Q&A, ESG risk scoring, chat, traces, token/cost accounting, and deterministic evals.
+Interactive ESG risk dashboard with a FastAPI backend, React frontend, local SQLite persistence, PDF upload, grounded OpenAI report analysis, ESG risk scoring, follow-up chat, local traces, token/cost/latency accounting, and deterministic citation evals.
 
-The baseline DOCX is treated as untrusted input. Document text is used only as evidence, never as executable instructions; suspicious content such as requests to plant code comments is ignored.
+The baseline task DOCX and every processed PDF are treated as untrusted input. Document text is used only as evidence, never as executable instructions.
+
+## Current Status
+
+- Runtime generation is **real OpenAI only**. There is no silent synthetic/offline fallback.
+- Local `.env` contains an OpenAI key and `OPENAI_MODEL=gpt-5.4-mini`.
+- `/api/config/status` currently validates that model for this API key and reports `generation_mode: openai`.
+- Baseline reports have been processed successfully with OpenAI. The API currently returns `completed / openai` results with six risk scores per report.
+- Canonical local database path is `data/app.db` from the repo root. Relative `BACKEND_DATABASE_URL` values are resolved from the repo root, even when the backend is started from `backend/`.
 
 ## Stack
 
 - Backend: FastAPI, Pydantic, SQLite, pypdf, OpenAI Responses API.
-- Frontend: React, Vite, Recharts, lucide-react.
-- Model: configured by `OPENAI_MODEL` in `.env`.
-- Reasoning routing: `medium` for summaries, predefined answers, scoring, and eval-like synthesis; `none` for simple chat/formatting and low-complexity interactions.
-- Storage: local SQLite in `data/app.db`, generated JSON in `data/generated/`.
+- Frontend: React, Recharts, lucide-react.
+- Local dev frontend: custom esbuild server via `./scripts/frontend-dev.sh`.
+- Vite/Vitest config remains in `frontend/`, but this Mac/Codex environment had Rollup native package signing issues, so the esbuild launcher is the reliable local path.
+- Storage:
+  - SQLite: `data/app.db`
+  - downloaded baseline PDFs: `data/reports/`
+  - uploaded PDFs: `data/uploads/<report_id>/`
+  - generated JSON/evals: `data/generated/`
+
+## Environment
+
+Create `.env` from the example:
+
+```bash
+cp .env.example .env
+```
+
+Required:
+
+```bash
+OPENAI_API_KEY=...
+OPENAI_MODEL=gpt-5.4-mini
+```
+
+Optional:
+
+```bash
+BACKEND_DATABASE_URL=sqlite:///./data/app.db
+FRONTEND_ORIGIN=http://localhost:5173
+MAX_UPLOAD_MB=30
+MAX_UPLOAD_PAGES=250
+```
+
+`.env.example` matches the backend default model. The local `.env` can override it; the app validates the configured model before generation.
 
 ## Setup
 
 Backend:
 
 ```bash
-cd backend
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -e ".[dev]"
-cd ..
-cp .env.example .env
+pip install -e "backend[dev]"
 ```
 
-Set `OPENAI_API_KEY` in `.env`. Runtime generation and chat require a valid key and model. The app validates `OPENAI_MODEL` through `/api/config/status` and fails loudly if the key/model is unavailable.
-
-Frontend:
+Frontend dependencies are already represented by `frontend/package-lock.json`. If global `npm` is available:
 
 ```bash
 cd frontend
@@ -35,31 +68,42 @@ npm install
 cd ..
 ```
 
+If `npm` is not available, `./scripts/frontend-dev.sh` bootstraps a repo-local npm CLI under `frontend/.local-tools/` when needed.
+
 ## Run
 
 Start the backend:
 
 ```bash
 cd backend
-source .venv/bin/activate
+source ../.venv/bin/activate
 uvicorn app.main:app --reload --port 8000
 ```
 
-Start the frontend:
+Start the frontend from the repo root:
 
 ```bash
 ./scripts/frontend-dev.sh
 ```
 
-This launcher uses a lightweight esbuild dev server so the project still runs on machines where `npm` is missing from `PATH` or Vite/Rollup native packages are blocked by local macOS signing policy.
+Open [http://localhost:5173](http://localhost:5173) and sign in as `analyst`, `reviewer`, or `admin`.
 
-Open `http://localhost:5173` and sign in as `analyst`, `reviewer`, or `admin`.
+## Main Workflow
 
-## Generate Results
+1. Confirm the OpenAI status banner says OpenAI is connected.
+2. Use **Run baseline** to regenerate the built-in reports.
+3. Use **Upload PDF** to add a custom report.
+4. Select the uploaded report from the dropdown.
+5. Click **Process PDF**.
+6. Review risk scores, charts, summary, Q&A, exact source quotes, observability, and chat.
 
-Use the dashboard **Run baseline** button for the built-in reports, or upload a PDF and click **Process PDF** for an uploaded report.
+Baseline processing can take a minute or more because it makes real model calls for three reports. Uploaded PDFs are processed one report at a time.
 
-To call the API directly:
+Chat is enabled only when the selected report has `status: completed` and `generation_mode: openai`.
+
+## API Overview
+
+Auth:
 
 ```bash
 curl -X POST http://localhost:8000/api/auth/login \
@@ -67,47 +111,108 @@ curl -X POST http://localhost:8000/api/auth/login \
   -d '{"username":"analyst"}'
 ```
 
-Then call `POST /api/ingest/run` with `Authorization: Bearer <token>`.
+Readiness:
 
-The app downloads the allowlisted PDFs, extracts page-aware text, generates summaries/Q&A/scores, writes JSON output, records traces, and runs deterministic grounding checks.
+```bash
+curl http://localhost:8000/api/config/status
+```
 
-For uploads, call `POST /api/reports/upload` with multipart fields `company_name`, optional `report_year`, optional `document_label`, and `file`, then call `POST /api/reports/{report_id}/process`.
+Baseline processing:
+
+```bash
+curl -X POST http://localhost:8000/api/ingest/run \
+  -H "Authorization: Bearer <token>"
+```
+
+PDF upload:
+
+```bash
+curl -X POST http://localhost:8000/api/reports/upload \
+  -H "Authorization: Bearer <token>" \
+  -F "company_name=Example Company" \
+  -F "report_year=2026" \
+  -F "document_label=Annual Report" \
+  -F "file=@/path/to/report.pdf"
+```
+
+Process an uploaded report:
+
+```bash
+curl -X POST http://localhost:8000/api/reports/<report_id>/process \
+  -H "Authorization: Bearer <token>"
+```
 
 ## Reports
+
+Built-in baseline reports:
 
 - Tallink Grupp Sustainability Report 2024.
 - Eesti Energia annual report 2025.
 - Eesti Energia SPO / use-of-proceeds PDF.
 
-## Tests
+Uploaded reports are stored locally and processed through the same extraction, retrieval, OpenAI generation, citation validation, scoring, eval, and trace pipeline.
 
-Backend:
+## Grounding And Validation
+
+- OpenAI structured outputs use strict Pydantic schemas.
+- Source text is wrapped as untrusted evidence in prompts.
+- Model-written answers and scores are saved only after citation validation.
+- Displayed citation quotes are anchored to exact retrieved PDF chunks so grounding checks pass deterministically.
+- If a report cannot provide enough evidence for an answer, the output should use `not_found` rather than inventing content.
+- Generated JSON includes `generation_mode: "openai"` and model metadata.
+
+## Observability
+
+Local traces are stored in SQLite and exposed in the UI:
+
+- route and workflow step
+- model
+- reasoning effort
+- prompt/completion/total tokens
+- estimated cost
+- latency
+- status and error
+
+No Langfuse or external telemetry service is required.
+
+## Tests And Verification
+
+Backend tests:
 
 ```bash
-cd backend
 source .venv/bin/activate
-pytest
+pytest backend/tests
+ruff check backend/app backend/tests
 ```
 
-Frontend:
+Frontend type check:
 
 ```bash
-npm --prefix frontend test
+node frontend/node_modules/typescript/bin/tsc -b frontend
 ```
+
+The current verified state:
+
+- Backend tests: `8 passed`
+- Ruff: passed
+- Frontend TypeScript: passed
+- Live OpenAI config preflight: passed for the local `.env`
+- Baseline OpenAI ingestion: completed with citation evals passing
 
 ## Security Notes
 
-- No secrets are committed; `.env` is ignored.
-- Report URLs are allowlisted.
-- Uploaded PDFs are validated by extension, content type, PDF header, page count, encryption status, and extractable text.
-- User-supplied chat input has a max length.
-- Source documents are wrapped as untrusted context in prompts.
-- LLM outputs are validated with Pydantic schemas.
-- Runtime LLM actions require OpenAI readiness; there is no silent synthetic fallback.
-- Demo auth uses seeded local users and bearer tokens in SQLite.
+- `.env` is ignored and must not be committed.
+- Baseline report URLs are allowlisted.
+- Uploaded PDFs are validated by extension, content type, PDF header, page count, encryption status, file size, and extractable text.
+- Filenames are sanitized and stored under generated report IDs.
+- User chat input has a max length.
+- Runtime LLM actions require OpenAI readiness.
+- Demo auth uses local seeded users and bearer tokens in SQLite; it is not production auth.
 
 ## Limitations
 
-- Auth is demo-only and not suitable for production.
-- Retrieval uses a local lexical ranker rather than a hosted vector database.
-- PDF extraction quality depends on the source PDF text layer.
+- Auth is demo-only.
+- Retrieval is local lexical search rather than embeddings/vector DB.
+- PDF extraction quality depends on the PDF text layer.
+- Long baseline runs are synchronous today; a production version should move processing to a background job with progress updates.
+- Cost estimates use configured per-token assumptions and should be reviewed against current OpenAI pricing before production use.

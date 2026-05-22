@@ -12,6 +12,7 @@ coverage/
 *.pyc
 data/app.db
 data/reports/*.pdf
+data/uploads/*
 data/index/*
 data/generated/traces*.jsonl
 frontend/.vite/
